@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+		<script>
+			function initialize() {
+				var myCenter=new google.maps.LatLng(44.563143,-123.278649);
+
+  				var mapProp = {
+    				center: myCenter, 
+    				zoom:10, 
+    				mapTypeId:google.maps.MapTypeId.ROADMAP
+  				};
+  				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+  				var marker=new google.maps.Marker({
+  					position:myCenter,
+  				});
+
+				marker.setMap(map);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div class="header">
+			<div class="MainHeader">
+				<h1 class="MainHeader1"> Women's </h1>
+				<h1 class="MainHeader2"> Computational </h1>
+				<h1 class="MainHeader3"> Thinking  </h1>
+			</div>
+
+			
+
+			<ul>
+				<li> <a href="#"> Directions </a> </li>
+				<li> <a href="#Information"> Information </a> </li>
+				<li> <a href="#Topics"> Topics </a> </li>
+				<li> <a href="#"> Dates and Times </a> </li>
+				<li> <a href="#"> Contacts </a> </li>
+				<li> <div id="triangle"></div></li>
+			</ul>
+			
+
+			<h2 class="SubHeader"> At Oregon State University </h2>
+		</div>
+
+		<div class="mainPage">
+
+			<!-- Left -->
+			<div class="left"> 
+				<h2 id="Information"> Dinner and Seminar Event Series </h2>
+
+				<p> This is a free dinner and seminar series for woman interested in learning about computer science and the many ways it is used in your daily life. During the event, we will discuss topics such as algorithms, control flow, and much more! This is a chance to build a community and interact with current undergraduate student mentors in the School of Electrical Engineering and Computer Science. This research study is led by Dr. Jennifer Parham-Mocello. </p>
+
+				<div class="images">
+					<img src="Images/Thinking.png" alt="Thinking">
+				</div>
+
+				<h2> Topics </h2>
+
+				<ul>
+					<li> &bull; What is an Algorithm? </li>
+					<li> &bull; Data Representation </li>
+					<li> &bull; Control Flow/Logic </li>
+					<li> &bull; Decomposition </li>
+					<li> &bull; Software Design </li>
+				</ul>
+
+			</div>
+
+
+			<!-- Right -->
+			<div class="right">
+
+				<div class="images">
+					<img src="Images/twoGirls.png" alt="Two">
+				</div>
+
+
+				<h2 id="Topics"> IDK what should go  here  </h2>
+				
+				<ul>
+					<li> &bull; What is an Algorithm? </li>
+					<li> &bull; Data Representation </li>
+					<li> &bull; Control Flow/Logic </li>
+					<li> &bull; Decomposition </li>
+					<li> &bull; Software Design </li>
+				</ul>
+
+			</div>
+
+			<!-- center -->
+			<div class="center">
+				<div class="cleft">
+					<h2 id="DatesAndTimes"> Dates, Times, and Locations </h2>
+					<ol>
+						<li> Each dinner runs from 5:30pm - 8:30pm </li>
+						<li> May 2,  2016  - Some location </li>
+						<li> May 8,  2016  - Some location</li>
+						<li> May 16, 2016  - Some location</li>
+						<li> May 23, 2016  - Some location</li>
+						<li> May 31, 2016  - Some location</li>
+					</ol>
+				</div>
+
+				<div class="ccenter">
+					<!-- The JS for this is at the top, just change the latitude and longitude for where you want the marker -->
+					<!-- The scale attribute is how zoomed in you want -->
+					<!-- cant really search for a spot but I guess people will get an idea? Maybe some text will help people find the MU? -->
+					<h2> Directions </h2> 
+					<div id="googleMap" class="map"></div>
+				</div>
+
+				<div class="cright">
+					<h2> Contacts </h2>
+					<p> Send an email to us by clicking on our name </p>
+					<ul>
+						<li><a href="mailto:sheridme@oregonstate.edu?subject=Test"> Jennifer </a></li>
+						<li><a href="#"> Claudia </a></li>
+						<li><a href="#"> Shannon </a> </li>
+						<li><a href="#"> etc </a> </li>
+						<li><a href="#"> etc </a> </li>
+						<li><a href="#"> etc </a> </li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+
+	</body>
+</html>
+
