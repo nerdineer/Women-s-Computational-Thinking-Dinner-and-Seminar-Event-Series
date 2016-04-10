@@ -14,7 +14,7 @@
 	position: relative;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background-color: #F66644; 
+	background-color: #F66644;
 	list-style-type: none;
 	text-align: left;
 }
@@ -26,7 +26,7 @@
 }
 
 .header li:last-child:hover{
-	background-color: #F66644; 
+	background-color: #F66644;
 }
 
 .header li a{
@@ -46,15 +46,15 @@
 }
 
 .mainPage{
-	display:inline-block;
+	/*display:inline-block;*/
 	width: 100%;
 }
 
 .mainPage .left{
-	width: 45%;
+	/*width: 45%;*/
 	padding: 1em;
-	float: left;
-	display: inline;
+	/*float: left;*/
+	/*display: inline;*/
 
 }
 
@@ -70,23 +70,23 @@
 
 .mainPage .left ul{
 	width: 100%;
-	padding-left: 0;
+	/*padding-left: 0;*/
 
 }
 
 .mainPage .left li{
-	display: inline;
-	padding-right: 3em; 
+	/*display: inline;*/
+	/*padding-right: 3em;*/
 }
 
 .mainPage .left li:last-child{
-	padding-right: 4.5em;
+	/*padding-right: 4.5em;*/
 }
 
 .mainPage .right{
 	width: 45%;
-	padding: 1em;
-	float: right;
+	/*padding: 1em;*/
+	/*float: right;*/
 	display:inline;
 }
 
@@ -96,16 +96,16 @@
 
 .mainPage .right ul{
 	width: 100%;
-	padding-left:0;
+	/*padding-left:0;*/
 }
 
 .mainPage .right li{
 	display: inline;
-	padding-right: 3em; 
+	/*padding-right: 3em;*/
 }
 
 .mainPage .right li:last-child{
-	padding-right: 4.5em;
+	/*padding-right: 4.5em;*/
 }
 
 .mainPage .right .images img{
@@ -115,7 +115,7 @@
 
 .mainPage .row{
 	width: 100%;
-	float: left;
+	/*float: left;*/
 	display: inline-block;
 }
 
@@ -131,20 +131,20 @@
 
 .mainPage .cleft{
 	/*width: 27%;*/
-	float: left;
+	/*float: left;*/
 }
 
 .mainPage .ccenter{
 	/*width: 50%;*/
-	float: left;
-	margin-left:1em;
+	/*float: left;*/
+	/*margin-left:1em;*/
 	padding: 1em;
 }
 
 .mainPage .cright{
 	/*width: 15%;*/
-	margin-left: 1em;
-	float: left;
+	/*margin-left: 1em;*/
+	/*float: left;*/
 }
 
 .mainPage .cright ul li a{
