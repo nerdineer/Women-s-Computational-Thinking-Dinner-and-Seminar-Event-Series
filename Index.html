@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+	    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<!-- Bootstrap -->
+    		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<script src="http://maps.googleapis.com/maps/api/js"></script>
-
-		<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    	<title>Woman Computational Thinkings</title>
-
-    	<!-- Bootstrap -->
-    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+		<title>Woman Computational Thinkings</title>
     	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     	<!--[if lt IE 9]>
@@ -24,8 +21,8 @@
 				var myCenter=new google.maps.LatLng(44.563143,-123.278649);
 
   				var mapProp = {
-    				center: myCenter, 
-    				zoom:10, 
+    				center: myCenter,
+    				zoom:10,
     				mapTypeId:google.maps.MapTypeId.ROADMAP
   				};
   				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
@@ -47,101 +44,85 @@
 			<h1> Woman's Computational Thinking </h1>
 			<h2 class="SubHeader"> At Oregon State University </h2>
 			<ul class="navbar-nav">
-				<li> <a href="#"> Directions </a> </li>
-				<li> <a href="#Information"> Information </a> </li>
-				<li> <a href="#Topics"> Topics </a> </li>
-				<li> <a href="#"> Dates and Times </a> </li>
-				<li> <a href="#"> Contacts </a> </li>
+				<li> <a href="./Index.html"> Further Information </a> </li>
+				<li> <a href="./MeetOurMentors.html"> Meet Our Mentors </a> </li>
+				<li> <a href="./Directions.html"> Directions </a> </li>
+				<li> <a href="./ContactUs.html"> Contacts Us </a> </li>
 			</ul>
-			
 
-			
+
+
 		</div>
 
 		<div class="mainPage">
 
-			
+
 			<!-- Left -->
-			<div class="left col-md-6"> 
+			<div class="left col-md-6">
 				<h2 id="Information"> Dinner and Seminar Event Series </h2>
 
-				<p> This is a free dinner and seminar series for woman interested in learning about computer science and the many ways it is used in your daily life. During the event, we will discuss topics such as algorithms, control flow, and much more! This is a chance to build a community and interact with current undergraduate student mentors in the School of Electrical Engineering and Computer Science. This research study is led by Dr. Jennifer Parham-Mocello. </p>
+				<p> This is a <b>free</b> dinner and seminar series for women interested in learning about computer science and the many ways it is used in your daily life. During the event, we will discuss topics such as algorithms, control flow, and much more! This is a chance to build a community and interact with current undergraduate student mentors in the School of Electrical Engineering and Computer Science. This research study is led by Dr. Jennifer Parham-Mocello. </p>
 
 				<div class="images">
 					<img src="Images/Thinking.png" alt="Thinking">
 				</div>
 
-				<h2> Topics </h2>
-
-				<ul>
-					<li> What is an Algorithm? </li>
-					<li>  Data Representation </li>
-					<li>  Control Flow/Logic </li>
-					<li>  Decomposition </li>
-					<li>  Software Design </li>
-				</ul>
 
 			</div>
 
 
 			<!-- Right -->
 			<div class="right col-md-6">
+				<h2 id="Topics"> Event Schedule  </h2>
+				<p> The events will run from 5:30pm-8:30pm. </p>
+				<div class="table-responsive">
+					<table class="table">
 
-				<div class="images">
-					<img src="Images/twoGirls.png" alt="Two">
+						<tr>
+							<th>Date</th>
+							<th>Location on Campus</th>
+							<th>Topic Covered</th>
+							<th>Details</th>
+						</tr>
+
+						<tr>
+							<td>May 2nd, 2016</td>
+							<td>Memorial Union: Horizon Room</td>
+							<td>Algorithms</td>
+							<td>We will be discussing how algorithms can be scene in your everyday life.</td>
+						</tr>
+						<tr>
+							<td>May 8th, 2016</td>
+							<td>Memorial Union: Horizon Room</td>
+							<td>Speaker (TBD)</td>
+							<td>This will be a special Mother's Day event. Mom's are welcome! We will be having a guest speakers on this night.</td>
+						</tr>
+						<tr>
+							<td>May 16th, 2016</td>
+							<td>Memorial Union: Horizon Room</td>
+							<td>Decomposition</td>
+							<td>We will explore the concept of decomposition.</td>
+						</tr>
+						<tr>
+							<td>May 23th, 2016</td>
+							<td>Memorial Union: Horizon Room</td>
+							<td>Control Flow</td>
+							<td>We will explore the concept of decomposition.</td>
+						</tr>
+						<tr>
+							<td>May 31st, 2016</td>
+							<td>Memorial Union: Ball Room</td>
+							<td>Data Representation</td>
+							<td>We will explore the concept of data representation through graphics!</td>
+						</tr>
+
+
+
+					</table>
 				</div>
-
-
-				<h2 id="Topics"> IDK what should go  here  </h2>
-				
-				<ul>
-					<li>  What is an Algorithm? </li>
-					<li>  Data Representation </li>
-					<li>  Control Flow/Logic </li>
-					<li>  Decomposition </li>
-					<li>  Software Design </li>
-				</ul>
 
 			</div>
-	
-			<!-- center -->
-			<div class="row ">
-				<div class="cleft col-xs-12 col-md-4">
-					<h2 id="DatesAndTimes"> Dates, Times, and Locations </h2>
-					<ol>
-						<li> Each dinner runs from 5:30pm - 8:30pm </li>
-						<li> May 2,  2016  - Some location </li>
-						<li> May 8,  2016  - Some location</li>
-						<li> May 16, 2016  - Some location</li>
-						<li> May 23, 2016  - Some location</li>
-						<li> May 31, 2016  - Some location</li>
-					</ol>
-				</div>
 
-
-				<div class="ccenter col-xs-8 col-md-4">
-					<!-- The JS for this is at the top, just change the latitude and longitude for where you want the marker -->
-					<!-- The scale attribute is how zoomed in you want -->
-					<!-- cant really search for a spot but I guess people will get an idea? Maybe some text will help people find the MU? -->
-					<h2> Directions </h2> 
-					<div id="googleMap" class="map"></div>
-				</div>
-
-				<div class="cright col-xs-8 col-md-4">
-					<h2> Contacts </h2>
-					<p> Send an email to us by clicking on our name </p>
-					<ul>
-						<li><a href="mailto:sheridme@oregonstate.edu?subject=Test"> Jennifer </a></li>
-						<li><a href="#"> Claudia </a></li>
-						<li><a href="#"> Shannon </a> </li>
-						<li><a href="#"> etc </a> </li>
-						<li><a href="#"> etc </a> </li>
-						<li><a href="#"> etc </a> </li>
-					</ul>
-				</div>
-
-				
-				</div>
 			</div>
 
 		</div>
@@ -149,4 +130,3 @@
 
 	</body>
 </html>
-
