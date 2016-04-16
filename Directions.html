@@ -16,7 +16,7 @@
       		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     	<![endif]-->
-		<script>
+		<!-- <script>
 			function initialize() {
 				var myCenter=new google.maps.LatLng(44.563143,-123.278649);
 
@@ -34,31 +34,41 @@
 				marker.setMap(map);
 			}
 			google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
+		</script> -->
 	</head>
       <body>
             <!-- Header -->
             <div class="header">
                   <h1> Woman's Computational Thinking </h1>
                   <h2 class="SubHeader"> At Oregon State University </h2>
-                  <ul class="navbar-nav">
-                        <li> <a href="./Index.html"> Further Information </a> </li>
-                        <li> <a href="./MeetOurMentors.html"> Meet Our Mentors </a> </li>
-                        <li> <a href="./Directions.html"> Directions </a> </li>
-                        <li> <a href="./ContactUs.html"> Contacts Us </a> </li>
-                  </ul>
+			<ul class="navbar-nav">
+				<li> <a href="./Index.html"> Home </a> </li>
+				<li> <a href="./EventInfo.html"> Event Information </a> </li>
+				<li> <a href="./TopicInfo.html"> Topic Details </a> </li>
+				<li> <a href="./MeetOurMentors.html"> Meet Our Mentors </a> </li>
+				<li> <a href="./Directions.html"> Directions </a> </li>
+				<li> <a href="./ContactUs.html"> Contacts Us </a> </li>
+			</ul>
 
 
 
             </div>
-            
+
                   <!-- The JS for this is at the top, just change the latitude and longitude for where you want the marker -->
                   <!-- The scale attribute is how zoomed in you want -->
                   <!-- cant really search for a spot but I guess people will get an idea? Maybe some text will help people find the MU? -->
-                  <h2> Directions </h2>
-                  <div id="googleMap" class="map"></div>
-          
+			<div class="centered">
+				<h2> Directions to Campus </h2>
+				<!-- <div id="googleMap" class="map"></div> -->
+				<object id="map" type="text/html" data="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Oregon+State+University&sll=37.822802,-115.532227&sspn=25.118232,39.506836&ie=UTF8&hq=Oregon+State+University&hnear=&ll=44.660839,-123.277588&spn=5.477444,9.876709&z=7&output=embed" style="width:450px;height:300px;">
+			<!-- </div> -->
+			<!-- <div class="centered"> -->
 
+			</div>
+
+			<div class="images">
+				<img src="Images/campusMap.jpg" >
+			</div>
 
 
 
