@@ -1,10 +1,18 @@
-
-
 .mainTitle{
 	padding-top: 10%;
 }
 .centered{
 	text-align: center;
+}
+.topicTable{
+	width: 1000px;
+	height: 450px;
+	margin: auto;
+}
+.eventTable{
+	width: 1000px;
+	height: 450px;
+	margin: auto;
 }
 .left{
 	float: left;
@@ -19,6 +27,10 @@
 
 .header h1{
 	text-align: center;
+}
+.pageTitle{
+	text-align: center;
+	margin-top: 4em;
 }
 
 .header ul{
@@ -134,8 +146,12 @@
 	/*float: left;*/
 	display: inline-block;
 }
-
-
+.teamPic{
+	margin-bottom: 2em;
+}
+.directionsContent{
+	margin-left: 3em;
+}
 .mainPage div h2{
 	text-align: center;
 }
